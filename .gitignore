@@ -1,12 +1,14 @@
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# Build
 build/
-develop-eggs/
 dist/
-downloads/
+develop-eggs/
 eggs/
 .eggs/
 lib/
@@ -18,7 +20,21 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# IDE
 .idea/
 .vscode/
+
+# Environments
 venv/
 env/
+
+# Large ML artifacts
+slurp_wavs/
+*.pt
+*.bin
+*.safetensors
+
+# Logs / temp
+*.log
+tmp/
